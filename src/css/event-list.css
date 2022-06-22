@@ -1,0 +1,5 @@
+/*Shrinks the list of events down to 50% to make space for the editor on the right side*/
+.event-list-container {
+    width: 50%;
+    border-right: 1px solid black;
+}

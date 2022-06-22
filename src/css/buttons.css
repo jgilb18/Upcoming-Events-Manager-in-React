@@ -1,0 +1,50 @@
+/*Generic button stylings*/
+.btn {
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: 'Gotham Rounded';
+    cursor:pointer;
+}
+
+/*pushes the "Delete" button slightly to the right so it isn't abutting the "Edit" button*/
+.btn-right {
+    margin-right: 10px;
+}
+
+/*Blue buttons throughout the page*/
+.btn--primary {
+    color: white;
+    background-color: hsl(187, 50%, 50%)
+}
+
+.btn--primary:hover {
+    background-color: hsl(187, 50%, 30%);
+    
+}
+
+/*Red buttons throughout the page*/
+.btn--danger {
+    color: white;
+    background-color: hsl(0, 50%, 50%);
+}
+
+.btn--danger:hover {
+    background-color: hsl(0, 50%, 30%);
+}
+
+.add-event-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.exit-edit-mode {
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-size: 1.5em;
+}

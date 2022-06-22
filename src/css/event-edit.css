@@ -1,0 +1,36 @@
+/*Places the edit event container out of the document flow and onto to the top right of the screen*/
+.event-edit-container {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 30px;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.text-area {
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+
+.attendee-edit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    grid-column-gap: 5px;
+}
+
+.add-event-button {
+    text-align: center;
+}
+
+.event-input {
+    font-size: inherit;
+    padding: 5px;
+}

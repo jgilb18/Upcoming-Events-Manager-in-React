@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-container {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.event-container:last-child {
+    border-bottom: none;
+}
+
+.event-label {
+    font-weight: bold;
+    color: hsl(187, 50%, 50%);
+    padding-right: 5px;
+}
+
+.event-value {
+    white-space: pre-wrap;
+}
+
+.event-description {
+    padding-bottom: 10px;
+}
+
+.title {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.attendees-title {
+    padding-bottom: 15px;
+}
+
+.indent-right {
+    margin-left: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}

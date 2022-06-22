@@ -1,0 +1,14 @@
+/*creates the attendee list grid*/
+.attendee-list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 10px;
+    grid-gap: 2px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.attendee-label {
+    font-weight: bold;
+    color: hsl(187, 50%, 50%);
+}
